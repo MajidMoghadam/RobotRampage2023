@@ -33,7 +33,7 @@ public class GunEquipper : MonoBehaviour
         {
             loadWeapon(pistol);
             activeWeaponType = Constants.Pistol;
-        }
+        }//this code for gun 2 was missing
         else if (Input.GetKeyDown("2"))
         {
             loadWeapon(assaultRifle);
